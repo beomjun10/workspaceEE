@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/*
+	1.tag selector
+	*/
+/*
+<< common.css >>
+body {
+	background-color: pink;
+	font-size: 17pt;
+	margin: 0px;
+}
+*/
+
+h3 {
+	text-align: center;
+}
+
+form {
+	background-color: mistyrose;
+	width: 700px;
+	border: 1px solid blue;
+	/* 
+		border-width: 1px;
+		border-style: solid;
+		border-color: blue; 
+		*/
+	margin: 10px auto 0px auto;
+	padding: 20px;
+}
+
+th {
+	background: #eeeeee;
+	font-size: 8pt;
+	color: #222;
+}
+
+/*
+	2.class selector
+	*/
+.TXTFLD {
+	border: 1px solid black;
+	color: blue;
+}
+
+.TXTFLD1 {
+	border: 1px dotted red;
+	color: red;
+}
+
+/*
+	3. id selector
+	*/
+#jointbl {
+	background-color: tomato;
+	width: 600px;
+}
+
+#first-tr {
+	background-color: gold;
+}
+
+/*
+	4. attribute selector
+	*/
+input[type=submit] {
+	background-color: blue;
+	color: yellow;
+	font-weight: 900;
+}
+
+input[type=submit]:hover {
+	background-color: yellow;
+	color: blue;
+	width: 100px;
+	height: 100px;
+}

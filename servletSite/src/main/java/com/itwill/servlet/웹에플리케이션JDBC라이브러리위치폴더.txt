@@ -1,0 +1,2 @@
+ /WEB-INF/lib/ojdbc8.jar
+ 

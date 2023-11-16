@@ -1,0 +1,25 @@
+
+주소록메인
+/address_main.do = com.itwill.address.servlet.AddressMainServlet
+
+주소록리스트
+/address_list.do = com.itwill.address.servlet.AddressListServlet 
+
+주소록상세보기
+/address_detail.do = com.itwill.address.servlet.AddressDetailServlet
+
+주소록쓰기폼
+/address_insert_form.do = com.itwill.address.servlet.AddressInsertFormServlet
+
+주소록쓰기
+/address_insert_action.do = com.itwill.address.servlet.AddressInsertActionServlet
+
+주소록수정폼
+/address_update_form.do = com.itwill.address.servlet.AddressUpdateFormServlet
+
+주소록수정
+/address_update_action.do = com.itwill.address.servlet.AddressUpdateActionServlet
+
+
+
+
